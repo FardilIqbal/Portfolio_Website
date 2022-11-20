@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,Hero,Skills} from "./components"
+import {Navbar,Hero,Skills,Projects} from "./components"
 import styles from './style';
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Hero />
           <Skills />
+          <Projects /> 
         </div>
       </div>
 

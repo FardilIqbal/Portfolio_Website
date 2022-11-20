@@ -1,4 +1,4 @@
-import {reactLogo, cssLogo, jsLogo, htmlLogo} from "../assets"
+import {reactLogo, cssLogo, jsLogo, htmlLogo, javaLogo,websiteIcon,routerIcon} from "../assets"
 
 export const navLinks = [
     {
@@ -44,6 +44,26 @@ export const skills = [
         logo:reactLogo,
         title:"React",
         content:"React was used to create this website and I have sufficient experience in using it to create responsive, modern websites using react hooks such as useState and useEffect"
+    },
+    {
+        id:"skill_5",
+        logo:javaLogo,
+        title:"Java",
+        content:"Java is often used to create my projects, such as the router graph model"
     }
 
+]
+export const projs = [
+    {
+        name:"Portfolio Website",
+        pict:websiteIcon,
+        link:"https://github.com/FardilIqbal/Portfolio_Website"
+
+    },
+    {
+        name:"Router Graph",
+        pict:routerIcon,
+        link:"https://github.com/FardilIqbal/Router_Graph",
+        //author:<a href="https://www.flaticon.com/free-icons/router" title="router icons">Router icons created by Adib Sulthon - Flaticon</a>
+    }
 ]
